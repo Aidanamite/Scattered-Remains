@@ -1,0 +1,31 @@
+{
+  "name": "Scattered Remains",
+  "author": "Aidanamite",
+  "description": "Makes the player drop their items on respawn",
+  "version": "1.0.3",
+  "license": "GNU AGPLv3",
+  "icon": "icon.png",
+  "banner": "banner.jpg",
+  "gameVersion": "1.0",
+  "requiredByAllPlayers": false,
+  "updateUrl": "https://www.raftmodding.com/api/v1/mods/scattered-remains/version.txt",
+  "isModPermanent": false,
+  "excludedFiles": [],
+  "modSettings": [
+    {
+      "name": "Drop Chance",
+      "type": "slider",
+      "default": 1,
+      "range": {
+        "type": "percent",
+        "min": 0,
+        "max": 1
+      }
+    },
+    {
+      "name": "Always Drop Special Items",
+      "type": "checkbox",
+      "default": false
+    }
+  ]
+}
